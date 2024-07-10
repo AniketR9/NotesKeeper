@@ -31,6 +31,7 @@ function CreateArea(props) {
       title: "",
       content: "",
     });
+    setExpanded(false);
     event.preventDefault();
   }
 
